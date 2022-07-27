@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  font-family: cursive;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f3f9ff;
+}
+
+#contain {
+  position: relative;
+  width: 100%;
+  height: 10vh;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  top: 0;
+  left: 0;
+  position: fixed;
+  max-height: 200px;
+  width: 100%;
+  background: transparent;
+  box-shadow: 0.3125rem 0.625rem 1.865rem rgba(0, 0, 0, 0.02);
+  z-index: 1;
+}
+.toptext {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1%;
+  margin-right: 16%;
+}
+.pic img {
+  height: 49px;
+}
+.toptext li a {
+  height: 2.8125rem;
+  line-height: 281%;
+  margin: 20px;
+  margin-left: 40px;
+  padding: 0px 1.25rem;
+  font-size: 109%;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+  display: flex;
+  font-weight: 800;
+  border-radius: 30px;
+  color: #762bbd;
+  background-color: white;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+#active {
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+  background-color: #762bbd;
+}
+.toptext li a:hover {
+  background-color: #762bbd;
+  padding-left: 40px;
+  padding-right: 40px;
+  transition: 0.7s;
+  color: white;
+  letter-spacing: 3px;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+}
+/*for mobile screen reposiveness */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  nav {
+    font-size: 14px;
+  }
+  .toptext li a {
+    margin: 20px;
+    padding: 4px;
+  }
+  .toptext li a:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.image {
+  height: 43.75rem;
+  width: 11.25rem;
+}
+.image img {
+  width: 15%;
+  height: 100%;
+  object-fit: contain;
+}
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0px;
+  margin-left: 350px;
+}
+.bg-img {
+  background-image: url("images/2320.jpg");
+  min-height: 780px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+h1 {
+  color: white;
+  margin-top: 8%;
+  margin-left: 10%;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  h1 {
+    font-size: 23px;
+    margin-top: 20%;
+  }
+}
+.btn {
+  margin-left: 10%;
+  color: #762bbd;
+  width: 160px;
+  height: 43px;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.btn:hover {
+  color: white;
+  background-color: #762bbd;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 210px;
+  letter-spacing: 3px;
+  transition: 0.5s;
+}
+.image {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 30px;
+}
+.rightmenubox {
+  margin-left: 150px;
+  height: 290px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  margin-top: 0px;
+}
+.rightmenubox li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+.rightmenubox ul li a {
+  margin: 35px;
+  margin-right: 50px;
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #762bbd;
+  display: block;
+  transition: 0.4s;
+}
+.rightmenubox ul li a:hover {
+  background-color: #762bbd;
+  color: white;
+  margin-left: 50px;
+  margin-right: 40px;
+  letter-spacing: 3px;
+}
+.toggle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+  margin-top: 12px;
+  margin-left: 40px;
+}
+.toggles {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(https://media.istockphoto.com/vectors/black-x-mark-icon-cross-symbol-vector-id688548038?k=6&m=688548038&s=170667a&w=0&h=6_K3sPmB3BxPWzgD5zyaIxL4HzXRzJ67mRTyuv2JJUk=);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+  display: none;
+  margin-top: 12px;
+  margin-left: 40px;
+}
+.btn {
+  margin-top: 20px;
+}
