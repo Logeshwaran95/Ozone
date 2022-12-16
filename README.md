@@ -9,7 +9,20 @@ How to run this site?<br><br>
   :: In your browser, type "localhost/Ozone". <br>
   <br><br>
  <b>The site will run successfully!.</b>
+ 
+ **AUTHORS**
+👤 **Logeshwaran S**
 
+* Website: http://logeshwaran-portfolio-logeshwaran95.vercel.app/
+* Twitter: [@Logeshwaran395](https://twitter.com/Logeshwaran395)
+* Github: [@Logeshwaran95](https://github.com/Logeshwaran95)
+* LinkedIn: [@logeshwaran](https://linkedin.com/in/logeshwaran-)
+
+👤 **Thilai Nathan**
+
+* Website: http://thillai.vercel.app/
+* Github: [@Thillai22](https://github.com/Thillai22)
+* LinkedIn: [@thillai-nathan](https://www.linkedin.com/in/thillai-nathan/)
 
 The Landing page(Landing.php)
 ![image](https://user-images.githubusercontent.com/81502320/207904727-ce66ad18-6f10-4b22-8bfe-fe4a26ff25ea.png)
